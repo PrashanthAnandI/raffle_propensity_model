@@ -30,7 +30,7 @@ raffle_propensity_model/
 │── Dockerfile
 │── requirements.txt
 │── README.md
-``` id="xq92xz"
+
 ## How to Run Locally
 1. Install dependencies
 pip install -r requirements.txt
