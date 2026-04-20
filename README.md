@@ -1,2 +1,19 @@
 # raffle_propensity_model
-End-to-end ML pipeline and API that predicts donation propensity for raffle campaigns, integrating Snowflake data extraction, feature engineering, and MLflow model serving.
+This project demonstrates an end-to-end machine learning pipeline built to predict the likelihood of donation for raffle campaign supporters.The solution combines data extraction, feature engineering, model serving, and API deployment into a single, production-style workflow.
+
+Tech Stack:
+Python
+FastAPI
+MLflow
+XGBoost
+Snowflake
+Pandas / NumPy
+Docker
+
+What This Project Does:
+Given a mail_date, the API:
+Fetches relevant supporter data from snowflake
+Applies preprocessing and feature engineering
+Loads a trained model from MLflow
+Returns a probability score indicating likelihood of donation
+
