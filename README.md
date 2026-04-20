@@ -17,6 +17,7 @@ Given a mail_date, the API:
 - Loads a trained model from MLflow
 - Returns a probability score indicating likelihood of donation
 
+```markdown id="1y8mkk"
 ## Project Structure
 raffle_propensity_model/
 │── src/
@@ -29,7 +30,7 @@ raffle_propensity_model/
 │── Dockerfile
 │── requirements.txt
 │── README.md
-
+``` id="xq92xz"
 ## How to Run Locally
 1. Install dependencies
 pip install -r requirements.txt
